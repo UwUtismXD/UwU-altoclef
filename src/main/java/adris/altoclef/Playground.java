@@ -301,6 +301,18 @@ public class Playground {
                         new ItemTarget("netherite_leggings", 1),
                         new ItemTarget("netherite_boots", 1)));
                 break;
+            case "UwU":
+                mod.runUserTask(TaskCatalogue.getSquashedItemTask(
+                    new ItemTarget("netherite_pickaxe", 1),
+                    new ItemTarget("netherite_sword", 1),
+                    new ItemTarget("netherite_helmet", 1),
+                    new ItemTarget("netherite_chestplate", 1),
+                    new ItemTarget("netherite_leggings", 1),
+                    new ItemTarget("netherite_boots", 1),
+                    new ItemTarget("enchanting_table", 1),
+                    new ItemTarget("bookshelf", 32),
+                    new ItemTarget("netherite_ingot", 4)));
+            break;
             case "arrow":
 
                 List<GhastEntity> ghasts = mod.getEntityTracker().getTrackedEntities(GhastEntity.class);
